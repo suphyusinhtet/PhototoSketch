@@ -65,12 +65,12 @@ for i in tqdm(image_file):
      #vertical flip
     img2 = cv2.flip(image,-1)
     img_array.append(img_to_array(img2))
-     vertical flip
+    #vertical flip
     img3 = cv2.flip(image,-1)
     # horizontal flip
     img3 = cv2.flip(img3,1)
     img_array.append(img_to_array(img3))
-    rotate clockwise
+    # rotate clockwise
     img4 = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
     img_array.append(img_to_array(img4))
     # flip rotated image
@@ -99,24 +99,24 @@ for i in tqdm(sketch_file):
     sketch_array.append(img_to_array(image))
 
     #Image Augmentation
-    # horizontal flip
+    #horizontal flip
     img1 = cv2.flip(image,1)
     sketch_array.append(img_to_array(img1))
-     #vertical flip
+    #vertical flip
     img2 = cv2.flip(image,-1)
     sketch_array.append(img_to_array(img2))
-     vertical flip
+    #vertical flip
     img3 = cv2.flip(image,-1)
     # horizontal flip
     img3 = cv2.flip(img3,1)
     sketch_array.append(img_to_array(img3))
-    rotate clockwise
+    #rotate clockwise
     img4 = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
     sketch_array.append(img_to_array(img4))
-    # flip rotated image
+    #flip rotated image
     img5 = cv2.flip(img4,1)
     sketch_array.append(img_to_array(img5))
-     # rotate anti clockwise
+    #rotate anti clockwise
     img6 = cv2.rotate(image, cv2.ROTATE_90_COUNTERCLOCKWISE)
     sketch_array.append(img_to_array(img6))
     # flip rotated image
