@@ -1,6 +1,6 @@
-numpy==1.19.2
-tensorflow==2.6.0
-keras==2.6.0
-matplotlib==3.4.3
-opencv-python==4.9.0.80
-tqdm==4.62.3
+numpy
+tensorflow
+keras
+matplotlib
+opencv-python
+tqdm
