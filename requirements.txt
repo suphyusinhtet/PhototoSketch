@@ -1,6 +1,6 @@
+opencv-python
 tensorflow
 numpy
 keras
 matplotlib
-opencv-python
 tqdm
