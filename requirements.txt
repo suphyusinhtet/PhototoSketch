@@ -1,5 +1,4 @@
-opencv-python
-libgl1-mesa-glx
+opencv-python-headless
 tensorflow
 numpy
 keras
