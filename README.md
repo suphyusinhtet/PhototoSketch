@@ -1,7 +1,7 @@
 # PhototoSketch
 ### This is an AI project to convert photo to sketch using autoencoder model.
 
-#### Our model has some litmitations. It works better for portrait face images with clear background, Try colab!!
+#### Our model has some limitations. It works better for portrait face images with clear background, Try colab!!
 
 #### **Small-Model(256)**
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/suphyusinhtet/PhototoSketch/blob/main/256sizeModel.ipynb)
