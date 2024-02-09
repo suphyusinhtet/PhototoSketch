@@ -3,13 +3,13 @@
 
 #### Our model has some limitations. It works better for portrait face images with clear background, Try colab!!
 
-#### **Small-Model(256)**
+#### **Small-Model(256 size)**
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/suphyusinhtet/PhototoSketch/blob/main/256sizeModel.ipynb)
 
-#### **Big-Model(512)**
+#### **Big-Model(512 size)**
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/suphyusinhtet/PhototoSketch/blob/main/512sizeModel.ipynb)
 
-> I uploaded the trained models for both 256 and 512 sizes.
+> I uploaded the trained models for both 256 and 512 sizes of output images.
 
 ### Link for testing - [Click here](https://phototosketch-xj3dfvjkvye49huorlqrr7.streamlit.app/)
 
