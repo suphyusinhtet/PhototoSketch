@@ -1,6 +1,6 @@
 opencv-python-headless
 tensorflow
 numpy
-keras==3.0.4 
+keras==3.0.3 
 matplotlib
 tqdm
