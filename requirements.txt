@@ -1,5 +1,5 @@
 opencv-python-headless
-tensorflow==2.15
+tensorflow
 numpy
 keras==2.15
 matplotlib
