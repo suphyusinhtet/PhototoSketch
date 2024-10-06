@@ -29,7 +29,7 @@ This project focuses on converting photos into sketch-like images using an **aut
 The primary goal of this project is to design an autoencoder that can take an input photo and generate a corresponding sketch. The project uses data augmentation techniques to expand the dataset and train the model more effectively. The autoencoder learns to compress the images into a lower-dimensional space and reconstruct them as sketches. 
 
 ### Dataset
-![Dataset](Dataset-1.JPG)
+![Dataset](Dataset 1.JPG)
 - **Photos**: RGB images of real-world scenes.
 - **Sketches**: Hand-drawn sketch-like images corresponding to the photos.
 - **Data Augmentation**: Techniques like flipping, rotating, and resizing are applied to increase the size of the dataset.
