@@ -65,9 +65,11 @@ model.compile(optimizer = tf.keras.optimizers.Adam(learning_rate = 0.001), loss 
 1. Load photo and sketch pairs.
 2. Resize images to `256x256` and `512x512`
 3. Normalize pixel values to the range `[0,1]`.
+
 ![Data Preprocessing 1](Datapreprocessing1.JPG)
 
 4. Apply data augmentation: flipping, rotation.
+
 ![Data Preprocessing 2](Datapreprocessing2.JPG)
 
 ### Model Architecture:
