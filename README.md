@@ -44,6 +44,8 @@ An autoencoder is a type of neural network used to learn efficient codings of un
 1. **Encoder**: Compresses the input into a lower-dimensional latent space.
 2. **Decoder**: Reconstructs the input from the compressed latent representation.
 
+![Autoencoder](Autoencoder.JPG)
+
 ### Encoder
 The encoder part of the network consists of **convolutional layers** which downsample the image by reducing its spatial dimensions while capturing important features. It performs:
 - **Convolution**: Extracts features from the input images.
