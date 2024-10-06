@@ -30,8 +30,8 @@ The primary goal of this project is to design an autoencoder that can take an in
 
 ### Dataset
 ![Dataset](Dataset1.JPG)
-- **Photos**: RGB images of real-world scenes.
-- **Sketches**: Hand-drawn sketch-like images corresponding to the photos.
+- **Photos**: RGB images of celebrity portrait images collected from the internet.
+- **Sketches**: Hand-drawn sketch-like images corresponding to the photos generated from a website.
 - **Data Augmentation**: Techniques like flipping, rotating, and resizing are applied to increase the size of the dataset.
 
 The dataset is divided into:
@@ -66,6 +66,8 @@ model.compile(optimizer = tf.keras.optimizers.Adam(learning_rate = 0.001), loss 
 - Resize images to `256x256` and `512x512`
 - Normalize pixel values to the range `[0,1]`.
 - Apply data augmentation: flipping, rotation.
+![Data Preprocessing 1](Datapreprocessing1.JPG)
+![Data Preprocessing 2](Datapreprocessing2.JPG)
 
 ### Model Architecture:
 - **Encoder**: Three convolutional layers for downsampling the image.
